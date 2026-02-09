@@ -1,0 +1,6 @@
+The program should start with the robot at position (0, 0) and prompt the user to enter a string of movement commands. 
+Each character in the string represents a move: "U" moves the robot up (increasing y by 1), "D" moves it down (decreasing y by 1), "L" moves it left (decreasing x by 1), and "R" moves it right (increasing x by 1). 
+Any other characters in the input are ignored as invalid commands, but if such characters are present, the program should display a warning message to let the user know that some commands were ignored. 
+The program processes the commands in order and updates the robot’s position accordingly. 
+At the end, it prints the robot’s final position as (x, y). 
+If the user enters an empty string, the program should indicate that the robot stayed at the starting position.
